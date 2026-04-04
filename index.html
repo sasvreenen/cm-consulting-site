@@ -447,7 +447,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
-}
+
   /* ─── RESPONSIVE ─── */
   @media (max-width: 1024px) {
     .offers-grid { grid-template-columns: 1fr 1fr; }
@@ -505,10 +505,24 @@
   .hero-float-card2 {
     display: none;
   }
-  .nav-links {
+.nav-links {
   display: none;
 }
-  }
+
+.nav-cta {
+  display: none;
+}
+
+.hero {
+  grid-template-columns: 1fr;
+  padding: 60px 5%;
+  min-height: auto;
+}
+
+.hero-right {
+  display: none;
+}
+}
 </style>
 </head>
 <body>
